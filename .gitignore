@@ -1,0 +1,87 @@
+# .gitignore for MERN (MongoDB, Express, React, Node) projects
+# Includes common artifacts, OS files, and JetBrains WebStorm (.idea) files
+
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+*.seed
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Dependency directories
+jspm_packages/
+
+# Testing
+coverage/
+coverage/*
+nyc_output/
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+
+# JetBrains WebStorm workspace files (sometimes you may want to keep code styles or shared configs,
+# but ignoring the whole .idea folder is the safe default)
+# .idea/
+# *.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.tgz
+*.zip
+*.tar
+*.gz
+*.sqlite
+
+# TypeScript
+*.tsbuildinfo
+
+# Parcel cache
+.cache/
+
+# Optional npm cache folder
+.npm
+
+# MacOS Finder
+.AppleDouble
+.LSOverride
+
+# Secrets and credentials
+credentials.json
+
+# Editor backups
+*~
+*.swp
+
+# SvelteKit/Next/Vite caches (if used)
+.svelte-kit/
+.vite/
+
+# End of file
+
