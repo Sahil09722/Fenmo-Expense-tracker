@@ -2,8 +2,6 @@
 
 A full-stack personal expense tracking application built with the MERN stack.
 
-🚀 **Live Demo**: [https://fenmo-assignment-umber.vercel.app/](https://fenmo-assignment-umber.vercel.app/)
-
 ## Tech Stack
 
 - **Backend**: Node.js, Express, MongoDB (Mongoose)
